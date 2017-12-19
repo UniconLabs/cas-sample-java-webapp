@@ -12,6 +12,7 @@ the application server in the [`web.xml`](https://github.com/UniconLabs/cas-samp
 
 * Create a Java keystore at `/etc/cas/jetty/thekeystore` with the password `changeit`.
 * Import your server certificate inside this keystore.
+* If your CAS server certificate is self signed, import it in the system global keystore (/etc/pki/java/cacerts on some systems)
 
 ```bash
 mvn clean package jetty:run-forked
