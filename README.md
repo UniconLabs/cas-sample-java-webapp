@@ -1,14 +1,14 @@
-# Example CASified Java Web Application
+# Example CASified Java Web Application 
 
 This is sample java web application that exercises the CAS protocol features via the Java CAS Client.
 
-Configure
+Configure :-
 ---------
 
 - Adjust the url endpoints of the CAS server and 
 the application server in the [`web.xml`](https://github.com/UniconLabs/cas-sample-java-webapp/blob/master/src/main/webapp/WEB-INF/web.xml) file.
 
-## Build
+## Build :-
 
 * Create a Java keystore at `/etc/cas/jetty/thekeystore` with the password `changeit`.
 * Import your server certificate inside this keystore.
@@ -27,7 +27,7 @@ https://localhost:9443/sample
 ```
 
  
-## Testing High Availability
+## Testing High Availability :-
 
 Assuming you have deployed CAS on two nodes, you can use the sample application to make sure all nodes are properly
 sharing the ticket state. To do this, in the `web.xml` file ensure that:
