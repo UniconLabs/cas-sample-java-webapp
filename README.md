@@ -1,4 +1,4 @@
-# Example CASified Java Web Application
+# Example CASified Java Web Application using Java CAS Client
 
 This is sample java web application that exercises the CAS protocol features via the Java CAS Client.
 
