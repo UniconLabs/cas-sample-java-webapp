@@ -21,7 +21,7 @@ The application will be available on:
 ```bash
 http://localhost:9080/sample
 ```
-As well as on
+As well as 
 ```bash
 https://localhost:9443/sample
 ```
